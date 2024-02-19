@@ -3,6 +3,7 @@
 #include "io.h"
 void affiche()
 {
+    tableau t;
     int i;
     for (i = 0; i < t.taille; i++)
     {

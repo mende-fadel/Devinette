@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "tableau.h"
-#include "alea.c"
-#include "io.c"
-#include "tri.c"
+#include "alea.h"
+#include "io.h"
+#include "tri.h"
 
 int main(int argc, char **argv)
 {
@@ -12,7 +12,7 @@ int main(int argc, char **argv)
         printf("usage : main <nb elems> <max val>\n");
         return 1;
     }
-
+tableau t;
     t.taille = atoi(argv[1]); // lecture du 1er argument
     int m = atoi(argv[2]);    // lecture du 2eme argument
 

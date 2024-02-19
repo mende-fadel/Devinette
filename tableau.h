@@ -6,5 +6,4 @@ typedef struct
     int taille;
 } tableau;
 
-tableau t;
 #endif TABLEAU_H

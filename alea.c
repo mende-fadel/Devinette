@@ -8,6 +8,7 @@ int alea(int m)
 
 void remplir(int m)
 {
+    tableau t;
     int i = 0;
     while (i < t.taille)
     {

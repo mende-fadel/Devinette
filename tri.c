@@ -2,6 +2,7 @@
 #include "tri.h"
 void bulle(int k)
 {
+    tableau t;
     int i = 0;
     for (i = 0; i <= k; i++)
     {
@@ -16,6 +17,7 @@ void bulle(int k)
 
 void trier()
 {
+    tableau t;
     int i = 0;
     for (i = t.taille - 1; i >= 0; i--)
     {
