@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "tableau.h"
+#include "alea.h"
 int alea(int m)
 {
     return rand() % (m + 1);
