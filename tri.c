@@ -1,4 +1,5 @@
 #include "tableau.h"
+#include "tri.h"
 void bulle(int k)
 {
     int i = 0;
