@@ -1,5 +1,6 @@
 #include"stdio.h"
 #include "tableau.h"
+#include "io.h"
 void affiche()
 {
     int i;
