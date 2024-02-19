@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include"tableau.h"
+#include "tableau.h"
+#include "alea.c"
+#include "io.c"
+#include "tri.c"
+
 int main(int argc, char **argv)
 {
     if (argc < 3)

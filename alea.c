@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "tableau.h"
 int alea(int m)
 {
