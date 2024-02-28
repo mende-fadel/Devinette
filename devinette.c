@@ -31,7 +31,7 @@ void jeuDevinette(){
         }
 
         suppositionPrecedente = madevinette;
-    } while (1); //boucle infinie jusqu'à ce qu'on trouve le nombre secret
+    } while (madevinette!=secretNumber); 
 
    
 }
