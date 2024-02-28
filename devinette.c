@@ -18,20 +18,20 @@ void jeuDevinette(){
         scanf("%d", &madevinette);
         essais++;
 
-        if(madevinette == suppositionPrecedente){
-            printf("Ce nombre a été déjà deviné !\n");
-            continue;
-        }
-        if(madevinette > suppositionPrecedente){
+        if(madevinette > secretNumber){
             printf("Trop grand !\n");
-        } else if(madevinette < suppositionPrecedente){
+        } else if(madevinette < secretNumber){
             printf("Trop petit !\n");
+        }
+        else {
+            printf("Bravo ! Vous avez deviné le nombre en %d essais", essais);
+        }
+        if(madevinette == suppositionPrecedente){
+            printf("Ce nombre a été déjà deviné !\n");    
         }
 
         suppositionPrecedente = madevinette;
-    } while (madevinette != suppositionPrecedente);
+    } while (1); //boucle infinie jusqu'à ce qu'on trouve le nombre secret
 
-    printf("Bravo ! Vous avez deviné le nombre en %d essais .\n", essais);
-    
-    
+   
 }
